@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "nuxt": "3.0.0"
+  },
+  "dependencies": {
+    "@chakra-ui/nuxt": "^0.6.0",
+    "@nuxt/image": "^0.7.1",
+    "@nuxt/ui": "^0.3.3",
+    "@nuxtjs/auth-next": "^5.0.0-1667386184.dfbbb54",
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/emotion": "^0.1.0",
+    "@vueuse/nuxt": "^9.5.0",
+    "nuxt-icon": "^0.1.7",
+    "sass": "^1.56.1"
+  }
+}
