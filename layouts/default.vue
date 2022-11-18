@@ -19,7 +19,7 @@ const menuItems = [{
 
 <template>
 	<div class="box">
-		<div class="nav">
+		<!-- <div class="nav">
 			<div class="logo">
 				<div class="title">NATIONAL SOCIAL</div>
 				<div class="title">PROTECTION</div>
@@ -37,7 +37,8 @@ const menuItems = [{
 
 			<div class="title">{{ menuItems.find(item => item.path == $route.path).name }}</div>
 			<slot />
-		</div>
+		</div> -->
+		<slot />
 	</div>
 </template>
 <style scoped lang="scss">
